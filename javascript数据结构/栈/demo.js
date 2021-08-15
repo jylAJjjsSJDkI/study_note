@@ -14,7 +14,7 @@ class Stack {
   // 删除栈顶元素
   pop() {
     const element = this.items.pop();
-    this.length = this.length === 0 ? this.length - 1 : 0;
+    this.length = this.length === 0 ? 0 : this.length - 1;
     return element;
   }
 
